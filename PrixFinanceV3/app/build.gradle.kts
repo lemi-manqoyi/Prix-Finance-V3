@@ -1,8 +1,8 @@
+import org.gradle.internal.impldep.com.amazonaws.PredefinedClientConfigurations.defaultConfig
+
 plugins {
-    alias(libs.plugins.android.application)
-    alias(libs.plugins.jetbrains.kotlin.android)
     id("kotlin-android")
-    alias(libs.plugins.google.gms.google.services)
+
 }
 
 android {
@@ -41,7 +41,10 @@ android {
     }
 }
 
-dependencies {
+dependencies
+    implementation (libs.plugins.android.application)
+    alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.google.gms.google.services)
     implementation ("com.google.firebase:firebase-bom:33.5.1")
     implementation ("com.google.firebase:firebase-auth")
     implementation ("com.google.android.gms:play-services-auth:21.2.0")
