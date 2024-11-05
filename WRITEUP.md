@@ -65,3 +65,6 @@ Development Process
 
 ## Conclusion
 Prix Finance is more than just a budgeting tool; it’s a comprehensive platform that empowers users to take control of their financial well-being in an enjoyable, manageable way. With its simple, easy-to-navigate UI and gentle, eye-friendly color scheme, Prix Finance ensures users feel comfortable and supported in their financial journeys. Through practical tools, personalized insights, and gamified elements, Prix Finance makes financial planning accessible, efficient, and engaging.
+
+
+ChatGPT. (2024) Prix Finance: Personal Finance Planning and Budgeting Application. Unpublished manuscript. OpenAI, November 5.
